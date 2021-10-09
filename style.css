@@ -3,7 +3,7 @@ body{
     background: #f0f0f0;
 }
 .background{
-    background-image: url(1.jpg);
+    background-image: url(img/1.jpg);
     background-size: cover;
     height: 90vh;
     margin-bottom: 20px;
