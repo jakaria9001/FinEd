@@ -170,8 +170,7 @@ footer h5{
     letter-spacing: 1px;
 }
 .bcontain2 .card{
-    height: 40vh; 
-    background-image: url('img/23.gif');
+    height: 40vh;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 5px 10px #262626;
