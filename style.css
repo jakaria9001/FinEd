@@ -3,7 +3,7 @@ body{
     background: #f0f0f0;
 }
 .background{
-    background-image: url(img/1.jpg);
+    background-image: url(img/18.jpg);
     background-size: cover;
     height: 90vh;
     margin-bottom: 20px;
@@ -30,7 +30,7 @@ body{
     padding-top: 100px;
 }
 .caption h1{
-    color: #263238;
+    color: #fff;
     font-weight:bold;
     font-size: 50px;
 }
