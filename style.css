@@ -5,13 +5,19 @@ body{
 .background{
     background-image: url(img/18.jpg);
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     margin-bottom: 20px;
 }
 .search{
     width: 30%;
     border-radius: 50px;
     background-color: darkblue;
+}
+.bvambient_particle
+{
+	position: absolute;
+	pointer-events: none;
+	transition: top linear, left linear;
 }
 .nav-link{
     color: black;
@@ -165,3 +171,25 @@ body{
 .soc i{
     padding-left: 50px;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(189, 189, 90);
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(138, 3, 3); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+    
+  }
