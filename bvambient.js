@@ -1,4 +1,3 @@
-/* Check External Source: bvambient.js */ 
 document.addEventListener("DOMContentLoaded", function() {
     var demo1 = new BVAmbient({
 selector: "#ambient",
