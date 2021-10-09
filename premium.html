@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>FinEd Premium </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="./img/logo.jpeg" type="image/icon type">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+        <style>
+            nav.sticky{
+                padding: 5px 0px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <!-- box -->
+        <div class="box pb-5">
+            <div class="container">
+                <h1 class="text-white text-center pb-4" style="font-size: 80px;">Premium <span class="text-success">Plans</span></h1>
+                <div class="container why" id="why">
+                    <div class="row">
+                        <div class="col-md-3 btn btn-success">
+                            <h3>Pre-operational<br>(Ages 2 to 7)</h3>
+                            <p>Children begin using and understanding language, and experience the world mainly from a selfish point of view. They only connect with one feature of a situation or object at a time. They benefit from lessons that encourage them to move around, handle things, and classify items into groups.</p>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-4 btn btn-warning">
+                            <h3>Concrete Operational<br>(Ages 7 to 11)</h3>
+                            <p>Children begin to develop logical, concrete thinking patterns. They can start understanding mass and volume and can gain symbolic understanding of things, for example, the amount of money and purchasing power represented by a certain piece of currency.</p>
+                        </div>
+                        <div class="col-md-1"></div>
+        
+                        <div class="col-md-3 btn btn-danger">
+                            <h3>Formal Operational<br>(Ages 11+)</h3>
+                            <p>After age 11, youth begin thinking about things on an abstract level, which means they can learn through group projects, games, case study illustrations, and brainstorming.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                  <div class="col-lg-3"></div>
+                  <div class="col-lg-6">
+                    <a href="index.html" class="btn container btn-outline-light">Back to Home</a>
+                  </div>
+                  <div class="col-lg-3"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+              var nav=document.querySelector("nav");
+              nav.classList.toggle("sticky", window.scrollY>0);
+            })
+        </script>
+        <script src="metaballs.js"></script>
+    </body>
+</html>
