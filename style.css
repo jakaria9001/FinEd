@@ -63,6 +63,11 @@ body{
     height: 25rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(138, 35, 241, 0.2), 0 6px 20px 0 rgba(127, 0, 255, 0.19);
+    transition: all 0.25s linear;
+}
+.explore img:hover {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: brightness(110%);
 }
 .explore .caption{
     width: 50%;
